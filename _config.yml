@@ -63,11 +63,11 @@ roles:
    employer: University of Maribor, Faculty of Electrical Engineering and Computer Science<br/>2007 - 2012 
 
 #Education is required
-education:
- - level: Bachelor of Science (B.Sc.)
-   date: 2002
-   subject: IT and Computer Science
-   school: University of Mariboer, Faculty of Electrical Engineering and Computer Science, Slovenia
+#education:
+# - level: Bachelor of Science (B.Sc.)
+#   date: 2002
+#   subject: IT and Computer Science
+#   school: University of Mariboer, Faculty of Electrical Engineering and Computer Science, Slovenia
 
 #This section is optional (as is the image link below)
 #coursera:
