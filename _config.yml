@@ -98,6 +98,8 @@ education:
 github:
  - tipsy/javalin
  - nixxcode/jvm-brotli
+ - nixxcode/brotli
+ - nixxcode/nixxcode.github.io
 
 #Stackoverflow flair is optional
 #stackoverflow:
