@@ -62,7 +62,7 @@ roles:
    end: 2012
    employer: University of Maribor, Faculty of Electrical Engineering and Computer Science<br/>2007 - 2012 
 
-Education is required
+#Education is required
 education:
  - level: Bachelor of Science (B.Sc.)
    date: 2002
