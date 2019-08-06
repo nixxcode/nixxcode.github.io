@@ -47,12 +47,12 @@ roles:
    end: 2017
    employer: Britpart
    description: My role at Britpart involved maintaining and troubleshooting a network of over 300 devices (PCs, laptops, tablets, printers, etc) both physically, as well as via Active Directory on Windows Server 2012. I also implemented a custom e-mail signature solution (called Exclaimer) for Microsoft Outlook across their entire business network.
- - title: Second Line Support Analyst
+ - title: 2nd Line Support Analyst
    start: 2015
    end: 2016
    employer: Guestline Ltd.
    description: My role at Guestline involved offering advanced second line technical support for the company's software solutions to business customers via telephone, e-mail and remote desktop connections. It was a busy role where meeting SLA targets was critical.
- - title: Freelance IT Consultant
+ - title: Freelance IT Pro
    start: 2012
    end: 2015
    employer: Self-employed
