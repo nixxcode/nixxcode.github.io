@@ -96,8 +96,8 @@ roles:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - nixxcode/jvm-brotli
  - tipsy/javalin
+ - nixxcode/jvm-brotli
 
 #Stackoverflow flair is optional
 #stackoverflow:
