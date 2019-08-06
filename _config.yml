@@ -123,10 +123,10 @@ intro: |
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>Java</strong>: Worked with a fair bit of Java<br/><br/>
-   <strong>Java JNI</strong>: Leveraged JNIs to run native code (c/c++) in Java<br/><br/>
-   <strong>Kotlin</strong>: Did some work with Kotlin<br/><br/>
+   <strong>Java</strong>: Worked with a fair bit of Java (Add details)<br/><br/>
+   <strong>Java JNI</strong>: Leveraged JNIs to run native code (c/c++) in Java (Add details)<br/><br/>
+   <strong>Kotlin</strong>: Did some work with Kotlin (Add details)<br/><br/>
    <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with Git, Maven and Gradle (as well as their respective lifecycle goals).<br/><br/>
    <strong>Cross-platform publishing</strong>: I have successfully published my own cross-platform library on maven central. Please have a look at jvm-brotli in my projects section.<br/><br/>
-   <strong>Continuous Integration</strong>I am familiar with running jUnit tests and using them with Continuous Integration services such as Travis CI and Buddy to get the most out of CI testing, catching as many bugs as possible prior to releases<br/><br/>
+   <strong>Continuous Integration</strong>: I am familiar with running jUnit tests and using them with Continuous Integration services such as Travis CI and Buddy to get the most out of CI testing, catching as many bugs as possible prior to making releases<br/><br/>
   
