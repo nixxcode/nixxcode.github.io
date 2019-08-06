@@ -21,10 +21,10 @@ skills:
  - Java
  - Kotlin
  - Maven
- - Maven central publishing
  - Gradle
- - Java JNI
+ - Maven central publishing
  - Cross-platform publishing
+ - Java JNI
  - SQL
  - REST API
  - HTTP
@@ -36,6 +36,9 @@ skills:
  - CI - Continuous Integration
  - Git
  - GitHub
+ - Compression
+ - Gzip
+ - Brotli
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 #blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
