@@ -38,7 +38,7 @@ skills:
 #Work experience is required
 roles:
  - title: IT Support Assistant
-   start: 2017
+   start: 2016
    end: 2017
    employer: <a href="https://www.britpart.com/" taget="_blank">Britpart</a>
    description: My role at Britpart involved maintaining and troubleshooting a network of over 300 devices (PCs, laptops, tablets, printers, etc) both physically, as well as via Active Directory on Windows Server 2012. I also implemented a custom e-mail signature solution (called Exclaimer) for Microsoft Outlook across their entire business network.
