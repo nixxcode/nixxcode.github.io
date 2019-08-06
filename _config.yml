@@ -51,7 +51,7 @@ roles:
    start: 2017
    end: 2018
    employer: Britpart
-   description: My role at Britpart involved maintaining and troubleshooting a network of over 300 devices (PCs, laptops, tablets, printers, etc) both physically, as well as via Active Directory on Windows Server 2012. I also implemented a custom e-mail signature solution (called Exclaimer) for Microsoft Outlook across their entire business network.
+   description: My role at Britpart involved maintaining and troubleshooting a network of over 300 devices (PCs, laptops, tablets, printers, etc) both physically, as well as via Active Directory on Windows Server 2012. I also implemented a custom e-mail signature solution (called Exclaimer) for Microsoft Outlook across their entire business network, and managed it centrally via AD.
  - title: 2nd Line Support Analyst
    start: 2015
    end: 2016
