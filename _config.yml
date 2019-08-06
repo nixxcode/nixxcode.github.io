@@ -29,6 +29,8 @@ skills:
  - REST API
  - HTTP
  - Web
+ - HTML
+ - JavaScript
  - Git
  - GitHub
 
@@ -96,9 +98,7 @@ roles:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - google/brotli
  - nixxcode/jvm-brotli
- - nixxcode/brotli
  - nixxcode/nixxcode.github.io
  - tipsy/javalin
 
@@ -108,7 +108,15 @@ github:
 #   flairimageurl: http://stackoverflow.com/users/flair/258813.png
 
 intro: |
-  I am a software engineer with a passion for open source projects. Looking to start a career as a professional developer.
+  Hello, my name is Dominik. I currently reside in Shrewsbury, United Kingdom. I am actively seeking employment as a software engineer.
+  
+  I am a tech enthusiast with a passion for open source code projects. I fell in love with software development when I tried my hand at modding the game Minecraft, and have been aspiring to become a professional developer ever since.
+  
+  While it's true I don't have any experience as a commercial developer, I am definitely not a stranger to technology. I have a Bachelor's degree in computer science, coupled with a rich set of technical skills and experiences from previous employment.
+  
+  Please scroll down and take a look at some of the projects I am involved with as a demonstration of my skills and competencies.
+  
+  If you wish to get in touch, please contact me at dominik.petrovic87@gmail.com
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
