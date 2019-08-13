@@ -1,0 +1,9 @@
+- layout: top-middle
+  name: University of Maribor
+  dates: 2007 - 2012
+  qualification: BSc Computer Science
+#  quote: >
+  description: | # this will include new lines to allow paragraphs
+    My diploma thesis was on <mark>web security</mark>, focusing on common vulnerabilities, attack vectors and ways to secure against them. As part of my presentation, I demonstrated a <mark>JavaScript</mark>-based vulnerability (XSS) on a live website and explained how it could be secured.
+    
+    Notable modules – English, Mathematics, Operating Systems, Computer Networking, Web Technologies, IT Security, Databases

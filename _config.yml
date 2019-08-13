@@ -1,0 +1,62 @@
+# Site
+#repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Personal info
+name: Dominik Petrovic
+title: Open Source Developer
+email: dominik.petrovic87@gmail.com
+website: nixxcode.com
+
+# Social links
+#twitter_username: facespics
+github_username:  nixxcode
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: chillwildlife
+linkedin_username: dominik-petrovic
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hello, my name is Dominik (@nixxcode on Github) and I currently reside in Shrewsbury, United Kingdom. I am actively seeking employment as a software engineer.
+  
+  I am a tech enthusiast with a passion for open source projects. I fell in love with programming when I tried my hand at modding existing software, and have been aspiring to become a professional developer ever since.
+  
+  I have a bachelor's degree in computer science, coupled with a rich set of technical skills and experiences that I acquired from previous employment, as well as my participation in open source projects.
+  
+  To demonstrate my skills and competencies, I invite you to take a closer look at some of the projects I am involved with below. You can also find a link to my Github profile in the top-right corner.
+  
+  The technologies and concepts I am most skilled with are: <mark>Java</mark>, <mark>JNI</mark>, <mark>Kotlin</mark>, <mark>Maven</mark>, <mark>Gradle</mark>, <mark>Git</mark>, <mark>HTTP</mark>, <mark>REST API</mark>, <mark>HTML</mark>, <mark>JavaScript</mark>, <mark>SQL</mark>, <mark>jUnit</mark>, <mark>Integration Testing</mark>, <mark>CI - Continuous Integration</mark>
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+experience_title: Work Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+#more_content: | # this will include new lines to allow paragraphs
+#  COMING SOON
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

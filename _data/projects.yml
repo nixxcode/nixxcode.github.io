@@ -1,0 +1,23 @@
+- layout: top-middle
+  name: Jvm-Brotli
+  link: github.com/nixxcode/jvm-brotli
+  #github: nixxcode/jvm-brotli
+  quote: >
+    Lightweight, cross-platform Java library for the Brotli compression format.
+  description: | # this will include new lines to allow paragraphs
+    While working to implement <mark>Brotli</mark> compression in Javalin (see next project), I found the <mark>Java</mark> offerings for Brotli were out of date, buggy, or unsuitable for performance reasons. That's when I decided to create my own <mark>cross-platform library</mark> with the goal of making Brotli easy to access for Java developers and consumers on all platforms.
+    
+    What makes Jvm-Brotli uniquely helpful, is that including it in your own project is as simple as adding a single <mark>Maven</mark> or <mark>Gradle</mark> dependency. It will automatically download and use the correct <mark>native library</mark> based on the platform the dependent app is currently running on. This takes away all the complexity of <mark>JNI</mark>, making Brotli simple to include and easy to use.
+
+- layout: top-middle
+  name: Javalin
+  link: github.com/tipsy/javalin
+  #github: tipsy/javalin
+  quote: >
+    A simple and modern Java and Kotlin web framework.
+  description: | # this will include new lines to allow paragraphs
+    I have been working closely with Javalin's maintainer to fix bugs and introduce brand new features to this fantastic and easy-to-use web framework. 
+    
+    My greatest contribution to the project was implementing <mark>Brotli</mark> compression capabilities for both static and dynamic <mark>web content</mark> (You can read about it <a href="https://javalin.io/news/2019/07/21/javalin-3.2.0-released.html">here</a>). This got quite technical and complex, because Javalin's static content handling is built on top of <mark>Jetty</mark>, so it was necessary to override the default content handling with our own robust approach.
+    
+    Unsurprising for such a significant change, a few bugs and issues surfaced after we released the changes. However, many <mark>continuous integration</mark> tests and some bug fixes later, the result of our work speaks for itself. Javalin now supports the Brotli compression format, as well as having a streamlined, unified handler for both dynamic and static <mark>HTTP</mark> responses.
