@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang=" en "><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dominik Petrovic | Open Source Developer</title><!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Open Source Developer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Github Pages CV repository" />
+<meta property="og:description" content="Github Pages CV repository" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Open Source Developer" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/","description":"Github Pages CV repository","name":"Open Source Developer","headline":"Open Source Developer","@type":"WebSite","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css">
+  <link rel="shortcut icon" type="image/x-icon" href=""></head>
+<body><div class="container header-contianer">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <h1>Dominik Petrovic</h1>
+      <h2>Open Source Developer</h2>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print"><li>
+            <a target="_blank" href="https://github.com/nixxcode" class="button button--sacnite button--round-l">
+              <i class="fa fa-github" title="Github link"></i>
+            </a>
+          </li><li>
+            <a target="_blank" href="https://www.linkedin.com/in/dominik-petrovic" class="button button--sacnite button--round-l">
+              <i class="fa fa-linkedin" title="Linkedin link"></i>
+            </a>
+          </li></ul><p>
+          Email: <a href="mailto:dominik.petrovic87@gmail.com" target="_blank">dominik.petrovic87@gmail.com</a>
+        </p><p>
+          Web: 
+<a href="//nixxcode.com" target="_blank" class="">nixxcode.com</a>
+        </p></div>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+        <div class="wrapper"><div class="container intro-container">
+  <h3>About Me</h3>
+  <div class="row clearfix"><div class="col-xs-12 col-sm-4 col-md-3 no-print">
+        <span class="profile-img" style="background-image: url(/images/profile.jpg)" />
+      </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      <p>Hello, my name is Dominik (@nixxcode on Github) and I currently reside in Shrewsbury, United Kingdom. I am actively seeking employment as a software engineer.</p>
+
+<p>I am a tech enthusiast with a passion for open source projects. I fell in love with programming when I tried my hand at modding existing software, and have been aspiring to become a professional developer ever since.</p>
+
+<p>I have a bachelor’s degree in computer science, coupled with a rich set of technical skills and experiences that I acquired from previous employment, as well as my participation in various open source projects.</p>
+
+<p>To demonstrate my skills and competencies, I invite you to take a closer look at some of the projects I am involved with. You can also find a link to my Github profile in the top-right corner.</p>
+
+<p>The technologies and concepts I am most skilled with are: <mark>Java</mark>, <mark>JNI</mark>, <mark>Kotlin</mark>, <mark>Maven</mark>, <mark>Gradle</mark>, <mark>Git</mark>, <mark>HTTP</mark>, <mark>REST API</mark>, <mark>HTML</mark>, <mark>JavaScript</mark>, <mark>SQL</mark>, <mark>jUnit</mark>, <mark>Integration Testing</mark>, <mark>CI - Continuous Integration</mark></p>
+
+    </div>
+  </div>
+</div>
+<div class="container projects-container">
+  <h3>Projects</h3>
+  
+    <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>Jvm-Brotli</h4>
+<a href="//github.com/nixxcode/jvm-brotli" target="_blank" class="link">github.com/nixxcode/jvm-brotli</a></div>
+  <div class="col-xs-12 col-print-12"><p class="quote">Lightweight, cross-platform Java library for the Brotli compression format.
+</p><p>While working to implement <mark>Brotli</mark> compression in Javalin (see next project), I found the <mark>Java</mark> offerings for Brotli were out of date, buggy, or unsuitable for performance reasons. That’s when I decided to create my own <mark>cross-platform library</mark> with the goal of making Brotli easy to access for Java developers and consumers on all platforms.</p>
+
+<p>What makes Jvm-Brotli uniquely helpful, is that including it in your own project is as simple as adding a single <mark>Maven</mark> or <mark>Gradle</mark> dependency. It will automatically download and use the correct <mark>native library</mark> based on the platform the dependent app is currently running on. This takes away all the complexity of <mark>JNI</mark>, making Brotli simple to include and easy to use.</p>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>Javalin</h4>
+<a href="//github.com/tipsy/javalin" target="_blank" class="link">github.com/tipsy/javalin</a></div>
+  <div class="col-xs-12 col-print-12"><p class="quote">A simple and modern Java and Kotlin web framework.
+</p><p>I have been working closely with Javalin’s maintainer to fix bugs and introduce brand new features to this fantastic and easy-to-use web framework.</p>
+
+<p>My greatest contribution to the project was implementing <mark>Brotli</mark> compression capabilities for both static and dynamic <mark>web content</mark> (You can read about it <a href="https://javalin.io/news/2019/07/21/javalin-3.2.0-released.html">here</a>). This got quite technical and complex, because Javalin’s static content handling is built on top of <mark>Jetty</mark>, so it was necessary to override the default content handling with our own robust approach.</p>
+
+<p>Unsurprising for such a significant change, a few bugs and issues surfaced after we released the changes. However, many <mark>continuous integration</mark> tests and some bug fixes later, the result of our work speaks for itself. Javalin now supports the Brotli compression format, as well as having a streamlined, unified handler for both dynamic and static <mark>HTTP</mark> responses.</p>
+
+  </div>
+</div>
+
+  
+</div>
+<div class="container experience-container">
+  <h3>Work Experience</h3>
+  
+    <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>Career Break</h4><p>November 2017 - Present</p></div>
+  <div class="col-xs-12 col-print-12"><p>I have been on a career break for the past 2 years. It has been necessary due to personal (family-related) reasons.</p>
+
+<p>During the last few months, my circumstances have changed, allowing me more personal time to work on open source projects. This has been invaluable for learning new skills and keeping existing ones up-to-date. I am now ready and eager to return to my professional life, and particularly excited about starting my new career as a software developer.</p>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>Britpart</h4><p><b>IT Support Assistant</b></p><p>January 2017 - November 2017</p></div>
+  <div class="col-xs-12 col-print-12"><p>At Britpart, I maintained a network of over 300 devices (PCs, laptops, tablets, printers, etc). This maintenance was both physical, as well as virtual (via <mark>Active Directory</mark> on <mark>Windows Server 2012</mark>).</p>
+
+<p>During calm periods, I also worked on implementing various <mark>scripts</mark> and processes to make the IT department more efficient as a whole. Most notably, I implemented a third party e-mail signature solution (called Exclaimer) for Microsoft Outlook across the entire business network, and managed it centrally via AD and <mark>scripted</mark> rules. This ensured a uniform and professional e-mail signature for all users across the business.</p>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>Guestline Ltd</h4><p><b>Second Line Support Analyst</b></p><p>January 2015 - October 2016</p></div>
+  <div class="col-xs-12 col-print-12"><p>At Guestline, I offered second line technical support to business customers via telephone, e-mail and remote desktop connections. It was a busy role where meeting tight deadlines and SLA targets was critical.</p>
+
+<p>During calmer periods, I also went above and beyond my duties to improve troubleshooting processes for the entire support department. I accomplished this by creating <mark>SQL</mark> scripts to automate the analysis and repair of common <mark>database</mark> faults.</p>
+
+  </div>
+</div>
+
+  
+    <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>Freelance IT Professional</h4><p>October 2007 - October 2014</p></div>
+  <div class="col-xs-12 col-print-12"><p>I started freelance IT work on the side when I began my university studies. The job primarily involved assisting home and small business users with common IT problems such as OS installation, LAN setup, hardware repairs, etc.</p>
+
+  </div>
+</div>
+
+  
+</div>
+<div class="container education-container">
+  <h3>Education</h3>
+  
+    <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>University of Maribor</h4><p><b>BSc Computer Science</b></p><p>2007 - 2012</p></div>
+  <div class="col-xs-12 col-print-12"><p>My diploma thesis was on <mark>web security</mark>, focusing on common vulnerabilities, attack vectors and ways to secure against them. As part of my presentation, I demonstrated a <mark>JavaScript</mark>-based vulnerability (XSS) on a live website and explained how it could be secured.</p>
+
+<p>Notable modules – English, Mathematics, Operating Systems, Computer Networking, Web Technologies, IT Security, Databases</p>
+
+  </div>
+</div>
+
+  
+</div>
+</div>
+    </main><div class="container footer-container">
+  <p>
+    Dominik Petrovic -
+    <a href="mailto:dominik.petrovic87@gmail.com" target="_blank">dominik.petrovic87@gmail.com</a>&nbsp;- References on request</p>
+</div></body>
+
+</html>
